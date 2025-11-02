@@ -239,7 +239,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               </div>
               <div className="flex-1">
                 <p className="text-sm font-medium text-gray-900">Guest User</p>
-                <p className="text-xs text-gray-500">john@example.com</p>
+                <p className="text-xs text-gray-500">No account needed</p>
               </div>
               <Button variant="ghost" size="sm">
                 <ChevronDown className="w-4 h-4" />
