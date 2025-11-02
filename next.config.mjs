@@ -163,14 +163,8 @@ const nextConfig = {
 
   // Enable experimental features
   experimental: {
-    turbopack: {
-      // Disable turbopack for now to avoid compatibility issues
-      enabled: false,
-    },
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
-    serverActions: true,
     serverComponentsExternalPackages: ['sharp'],
-    appDir: true,
   },
 
   // Logging
