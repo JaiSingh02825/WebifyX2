@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ['framer-motion'],
-  // Fix for framer-motion and Next.js 14 compatibility
   reactStrictMode: true,
   swcMinify: true,
 
@@ -164,6 +163,10 @@ const nextConfig = {
 
   // Enable experimental features
   experimental: {
+    turbopack: {
+      // Disable turbopack for now to avoid compatibility issues
+      enabled: false,
+    },
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
     serverActions: true,
     serverComponentsExternalPackages: ['sharp'],
