@@ -238,7 +238,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                 <User className="w-5 h-5 text-gray-600" />
               </div>
               <div className="flex-1">
-                <p className="text-sm font-medium text-gray-900">John Doe</p>
+                <p className="text-sm font-medium text-gray-900">Guest User</p>
                 <p className="text-xs text-gray-500">john@example.com</p>
               </div>
               <Button variant="ghost" size="sm">
@@ -293,7 +293,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               {/* User menu */}
               <div className="flex items-center space-x-3">
                 <div className="hidden sm:block text-right">
-                  <p className="text-sm font-medium text-gray-900">John Doe</p>
+                  <p className="text-sm font-medium text-gray-900">Guest User</p>
                   <p className="text-xs text-gray-500">Pro Plan</p>
                 </div>
                 <div className="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
