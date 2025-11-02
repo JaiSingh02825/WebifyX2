@@ -159,8 +159,8 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               <User className="w-5 h-5 text-gray-600" />
             </div>
             <div className="flex-1">
-              <p className="text-sm font-medium text-gray-900">John Doe</p>
-              <p className="text-xs text-gray-500">john@example.com</p>
+              <p className="text-sm font-medium text-gray-900">Guest User</p>
+              <p className="text-xs text-gray-500">No account needed</p>
             </div>
           </div>
           <Button variant="outline" size="sm" className="w-full">
