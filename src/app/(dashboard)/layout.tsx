@@ -181,9 +181,8 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               </div>
               <span className="text-xl font-bold text-gray-900">WebifyX</span>
             </div>
-            <Badge className="bg-purple-100 text-purple-800">
-              <Crown className="w-3 h-3 mr-1" />
-              Pro
+            <Badge className="bg-green-100 text-green-800">
+              🆓 Free Forever
             </Badge>
           </div>
 
