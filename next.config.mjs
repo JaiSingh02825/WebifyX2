@@ -171,7 +171,7 @@ const nextConfig = {
 
   // Enable experimental features
   experimental: {
-    ...nextConfig.experimental,
+    optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
     serverActions: true,
     serverComponentsExternalPackages: ['sharp'],
     appDir: true,
